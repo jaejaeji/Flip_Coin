@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="box">
+        <h1>Flip Ye Coin🏴‍☠️</h1>
+
+        <div id="coin" class="coin">
+          <img class="coin-front" src="PirateShipCoin_Heads.png">
+          <img class="coin-back" src="PirateShipCoin_Tails.png">
+        </div>
+       <h2 id="result">Click Flip Coin Below</h2>
+
+        <div class="counterBox">
+          <p>Number of flips: <span id="flipCount">0</span></p>
+          <p>Heads count: <span id="headCount">0</span> (<span id="headPercent">0</span>%)</p>
+          <p>Tails count: <span id="tailCount">0</span> (<span id="tailPercent">0</span>%)</p>
+
+        </div>
+        
+      <button id="flipBtn">Flip Coin</button>
+
+      </div>
+    </div>
+
+    <script src="./script.js">
+    </script>
+  </body>
+</html>
